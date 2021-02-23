@@ -7,6 +7,7 @@ import org.springframework.beans.BeanUtils;
 @Table(name="주문_table")
 public class Order {
 
+    //commit test
     @Id
     @GeneratedValue(strategy=GenerationType.AUTO)
     private Long id;
